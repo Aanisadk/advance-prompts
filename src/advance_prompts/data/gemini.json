@@ -1,0 +1,292 @@
+[
+  {
+    "id": "gemini-001",
+    "title": "Image description",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for image description.",
+    "prompt": "Describe the supplied image for {purpose}. Separate visible facts from interpretation, note uncertainty, and avoid inferring identity or sensitive traits.",
+    "variables": [
+      "{purpose}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-002",
+    "title": "Video scene analysis",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for video scene analysis.",
+    "prompt": "Analyse the supplied video for {goal}. Segment scenes with timestamps when available, describe visible actions and camera changes, and distinguish observation from inference.",
+    "variables": [
+      "{goal}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-003",
+    "title": "Research synthesis",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for research synthesis.",
+    "prompt": "Synthesize {sources} about {topic}. Compare claims, dates, source quality, consensus, disagreement, and remaining uncertainty.",
+    "variables": [
+      "{sources}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-004",
+    "title": "Document text extraction",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for document text extraction.",
+    "prompt": "Extract text from the supplied image or document. Preserve headings, lists, and tables; mark illegible characters instead of guessing.",
+    "variables": [],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-005",
+    "title": "Exam revision notes",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for exam revision notes.",
+    "prompt": "Turn {material} into revision notes for {level}: definitions, key concepts, worked examples, common errors, practice questions, and answer key.",
+    "variables": [
+      "{level}",
+      "{material}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-006",
+    "title": "Spreadsheet insights",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for spreadsheet insights.",
+    "prompt": "Inspect {spreadsheet} to answer {question}. Explain relevant columns, data gaps, anomalies, supported metrics, and useful charts.",
+    "variables": [
+      "{question}",
+      "{spreadsheet}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-007",
+    "title": "Itinerary inspiration",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for itinerary inspiration.",
+    "prompt": "Suggest an itinerary for {destination} based on {interests} and {constraints}. Label unverified hours, prices, and transport details for later checking.",
+    "variables": [
+      "{constraints}",
+      "{destination}",
+      "{interests}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-008",
+    "title": "Product image audit",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for product image audit.",
+    "prompt": "Evaluate {product_image} for {channel}. Assess crop, light, background, legibility, composition, and brand fit without inventing product claims.",
+    "variables": [
+      "{channel}",
+      "{product_image}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-009",
+    "title": "Diagram explainer",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for diagram explainer.",
+    "prompt": "Explain {diagram} to a {level} learner. Identify components, relationships, flow direction, ambiguous labels, and a plain-language summary.",
+    "variables": [
+      "{diagram}",
+      "{level}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-010",
+    "title": "Recording summary",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for recording summary.",
+    "prompt": "Summarise {recording_or_transcript}. Extract decisions, actions, explicitly named owners and deadlines, and unresolved topics; do not infer missing details.",
+    "variables": [
+      "{recording_or_transcript}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-011",
+    "title": "Visual consistency",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for visual consistency.",
+    "prompt": "Compare {assets} with {brand_rules}. Identify consistent elements and deviations in palette, typography, spacing, and imagery.",
+    "variables": [
+      "{assets}",
+      "{brand_rules}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-012",
+    "title": "Concept map",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for concept map.",
+    "prompt": "Build a text concept map for {topic}. Group related ideas, show prerequisites and dependencies, and identify likely learning bottlenecks.",
+    "variables": [
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-013",
+    "title": "Accessibility audit",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for accessibility audit.",
+    "prompt": "Review {graphic} for accessibility: contrast where measurable, colour-only meaning, text density, reading order, and alt text.",
+    "variables": [
+      "{graphic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-014",
+    "title": "Chart interpretation",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for chart interpretation.",
+    "prompt": "Interpret {chart} for {audience}. Explain axes, units, trends, outliers, and limitations; do not infer causation from correlation.",
+    "variables": [
+      "{audience}",
+      "{chart}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-015",
+    "title": "Storyboard planner",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for storyboard planner.",
+    "prompt": "Turn {story} into {scene_count} storyboard scenes with subject, action, setting, framing, lighting, continuity, and transition.",
+    "variables": [
+      "{scene_count}",
+      "{story}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-016",
+    "title": "Document diff",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for document diff.",
+    "prompt": "Compare {version_a} and {version_b}. Identify substantive additions, deletions, changed values, and unresolved inconsistencies.",
+    "variables": [
+      "{version_a}",
+      "{version_b}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-017",
+    "title": "Flashcard maker",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for flashcard maker.",
+    "prompt": "Create flashcards from {material}, one testable idea per card, with concise answers and a mix of recall and application.",
+    "variables": [
+      "{material}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-018",
+    "title": "Transcript cleanup",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for transcript cleanup.",
+    "prompt": "Review {transcript} for {purpose}. Correct only context-supported transcription errors and mark uncertain passages.",
+    "variables": [
+      "{purpose}",
+      "{transcript}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-019",
+    "title": "Moodboard direction",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for moodboard direction.",
+    "prompt": "Develop a moodboard direction for {project}: palette, materials, lighting, composition, reference traits, and elements to avoid.",
+    "variables": [
+      "{project}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "gemini-020",
+    "title": "Multimodal QA",
+    "category": "Gemini & Multimodal",
+    "platform": "Gemini and compatible multimodal assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for multimodal qa.",
+    "prompt": "Create a QA checklist for a workflow accepting {media_types}, covering input quality, extraction accuracy, privacy, edge cases, confidence, and human review.",
+    "variables": [
+      "{media_types}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "coding-001",
+    "title": "Python CLI",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for python cli.",
+    "prompt": "Build a Python CLI for {task} using argparse, modules, type hints, helpful errors, tests, supported versions, and exact run commands.",
+    "variables": [
+      "{task}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-002",
+    "title": "API client",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for api client.",
+    "prompt": "Create a client for {api} using environment secrets, timeouts, suitable retries, typed responses, and explicit rate-limit handling.",
+    "variables": [
+      "{api}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-003",
+    "title": "Traceback debugger",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for traceback debugger.",
+    "prompt": "Diagnose {traceback}. Explain likely cause, trace the relevant code path, propose the smallest fix, and add a regression test.",
+    "variables": [
+      "{traceback}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-004",
+    "title": "Code reviewer",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for code reviewer.",
+    "prompt": "Review {change} for correctness, security, performance, maintainability, and tests. Rank findings and give file/line references where possible.",
+    "variables": [
+      "{change}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-005",
+    "title": "Unit test designer",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for unit test designer.",
+    "prompt": "Write focused tests for {feature}, including normal cases, boundaries, invalid input, and regressions. Explain uncovered behaviour.",
+    "variables": [
+      "{feature}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-006",
+    "title": "Safe refactor",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for safe refactor.",
+    "prompt": "Refactor {module} for {goal} while preserving behaviour. Identify public interfaces, test first, work incrementally, and explain changes.",
+    "variables": [
+      "{goal}",
+      "{module}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-007",
+    "title": "SQL optimiser",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for sql optimiser.",
+    "prompt": "Review {query} and {schema}. Explain bottlenecks, justify indexes, preserve semantics, and describe execution-plan validation.",
+    "variables": [
+      "{query}",
+      "{schema}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-008",
+    "title": "Input validator",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for input validator.",
+    "prompt": "Implement validation for {input_type}. Define accepted formats, reject unsafe values, avoid sensitive error leakage, and test adversarial cases.",
+    "variables": [
+      "{input_type}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-009",
+    "title": "FastAPI endpoint",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for fastapi endpoint.",
+    "prompt": "Create a FastAPI endpoint for {resource} with Pydantic schemas, validation, status codes, dependency injection, errors, and tests.",
+    "variables": [
+      "{resource}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-010",
+    "title": "Data pipeline",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for data pipeline.",
+    "prompt": "Design a pipeline from {source} to {destination} with schema checks, idempotency, retries, logging, checkpoints, and recovery.",
+    "variables": [
+      "{destination}",
+      "{source}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-011",
+    "title": "Algorithm tutor",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for algorithm tutor.",
+    "prompt": "Explain and implement {algorithm} for {level}, including intuition, complexity, edge cases, readable code, and an example.",
+    "variables": [
+      "{algorithm}",
+      "{level}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-012",
+    "title": "Dependency audit",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for dependency audit.",
+    "prompt": "Review {dependencies} for maintenance and security risks. Identify items requiring current verification; do not claim vulnerabilities without evidence.",
+    "variables": [
+      "{dependencies}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-013",
+    "title": "Git coach",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for git coach.",
+    "prompt": "Guide me through {git_task} one command at a time. Explain effects, check before destructive operations, and wait for my result.",
+    "variables": [
+      "{git_task}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-014",
+    "title": "Docker setup",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for docker setup.",
+    "prompt": "Create Docker configuration for {app} with suitable base image, non-root user where practical, environment config, health check, and build steps.",
+    "variables": [
+      "{app}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-015",
+    "title": "GitHub Actions",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for github actions.",
+    "prompt": "Create a GitHub Actions workflow for {project} to run {checks}, with least-privilege permissions and clear failure behaviour.",
+    "variables": [
+      "{checks}",
+      "{project}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-016",
+    "title": "Type hint upgrade",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for type hint upgrade.",
+    "prompt": "Add meaningful type hints to {module}. Avoid Any unless justified, preserve runtime behaviour, and show a static-check command.",
+    "variables": [
+      "{module}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-017",
+    "title": "Performance investigation",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for performance investigation.",
+    "prompt": "Investigate slow behaviour in {system}. Measure first, establish a baseline, identify evidence-based hotspots, and propose a small testable change.",
+    "variables": [
+      "{system}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-018",
+    "title": "Release checklist",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for release checklist.",
+    "prompt": "Prepare a release plan for {package}, covering version, changelog, tests, build artifacts, metadata, install docs, and verification.",
+    "variables": [
+      "{package}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-019",
+    "title": "Frontend component",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for frontend component.",
+    "prompt": "Build a reusable {component} in {framework}, including accessible semantics, loading/empty/error states, responsiveness, typed props, and tests.",
+    "variables": [
+      "{component}",
+      "{framework}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "coding-020",
+    "title": "Explain codebase",
+    "category": "Python & Coding",
+    "platform": "AI coding assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for explain codebase.",
+    "prompt": "Explain {path_or_snippet}: trace inputs, outputs, dependencies, side effects, and errors. Separate verified facts from assumptions.",
+    "variables": [
+      "{path_or_snippet}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

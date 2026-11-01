@@ -1,0 +1,308 @@
+[
+  {
+    "id": "image-generation-001",
+    "title": "Cinematic portrait",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for cinematic portrait.",
+    "prompt": "Create a cinematic portrait of {subject} in {setting}, lit by {lighting}. Use a {lens} perspective, natural texture, believable anatomy, controlled depth of field, and {mood} mood.",
+    "variables": [
+      "{lens}",
+      "{lighting}",
+      "{mood}",
+      "{setting}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-002",
+    "title": "Luxury product hero",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for luxury product hero.",
+    "prompt": "Photograph {product} on {surface} against {background}. Use sculpted studio light, realistic reflections, crisp material detail, and negative space for copy.",
+    "variables": [
+      "{background}",
+      "{product}",
+      "{surface}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-003",
+    "title": "Editorial fashion",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for editorial fashion.",
+    "prompt": "Create an editorial fashion photograph of {subject} wearing {outfit} at {location}. Pose: {pose}. Use directional light, authentic fabric behaviour, and magazine composition.",
+    "variables": [
+      "{location}",
+      "{outfit}",
+      "{pose}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-004",
+    "title": "Architectural interior",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for architectural interior.",
+    "prompt": "Visualise a {room} in {style}, using {materials}, {furniture}, and {palette}. Preserve realistic proportions, circulation, and natural light.",
+    "variables": [
+      "{furniture}",
+      "{materials}",
+      "{palette}",
+      "{room}",
+      "{style}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-005",
+    "title": "Food editorial",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for food editorial.",
+    "prompt": "Create editorial food photography of {dish}. Emphasise realistic texture, culturally relevant styling, soft directional light, and a close hero composition.",
+    "variables": [
+      "{dish}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-006",
+    "title": "Travel poster",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for travel poster.",
+    "prompt": "Design a {style} travel poster for {destination}, featuring {landmark}. Use clear hierarchy, distinctive palette, and space for a title; avoid inaccurate landmark details.",
+    "variables": [
+      "{destination}",
+      "{landmark}",
+      "{style}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-007",
+    "title": "Brand identity board",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for brand identity board.",
+    "prompt": "Create a minimal identity concept for {brand} in {industry}, showing logo direction, palette, typography mood, and applications. Keep the mark legible small.",
+    "variables": [
+      "{brand}",
+      "{industry}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-008",
+    "title": "Neon city scene",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for neon city scene.",
+    "prompt": "Create a rain-soaked {city} street at night with neon reflections, layered signage, atmospheric haze, cinematic perspective, and coherent architecture.",
+    "variables": [
+      "{city}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-009",
+    "title": "Fantasy environment",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for fantasy environment.",
+    "prompt": "Illustrate {location} with {magical_element}. Establish focal point, environmental storytelling, believable scale, atmospheric perspective, and cohesive materials.",
+    "variables": [
+      "{location}",
+      "{magical_element}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-010",
+    "title": "Isometric technology",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for isometric technology.",
+    "prompt": "Create an isometric illustration explaining {technology}, showing {components} logically connected with consistent perspective and a limited palette.",
+    "variables": [
+      "{components}",
+      "{technology}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-011",
+    "title": "Macro nature",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for macro nature.",
+    "prompt": "Capture a macro photograph of {subject} in {environment}, emphasising fine surface detail, natural imperfections, shallow focus, and plausible light.",
+    "variables": [
+      "{environment}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-012",
+    "title": "Album artwork",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for album artwork.",
+    "prompt": "Design cover art for a {genre} release titled {title}, expressing {emotion} through composition, texture, colour, and symbolism.",
+    "variables": [
+      "{emotion}",
+      "{genre}",
+      "{title}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-013",
+    "title": "Character turnaround",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for character turnaround.",
+    "prompt": "Create a character sheet for {character} with front, side, and three-quarter views, consistent proportions, neutral pose, and expression studies.",
+    "variables": [
+      "{character}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-014",
+    "title": "Scientific illustration",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for scientific illustration.",
+    "prompt": "Create an educational illustration of {concept} for {audience}. Prioritise correct relationships, clear labels, and transparent simplifications.",
+    "variables": [
+      "{audience}",
+      "{concept}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-015",
+    "title": "Vintage film still",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for vintage film still.",
+    "prompt": "Create a film still set in {era} at {location}, with period-appropriate wardrobe, props, lighting, grain, and colour response.",
+    "variables": [
+      "{era}",
+      "{location}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-016",
+    "title": "E-commerce product shot",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for e-commerce product shot.",
+    "prompt": "Create a clean e-commerce image of {product} on a seamless light background, showing the full item, accurate proportions, faithful colour, and grounded shadow.",
+    "variables": [
+      "{product}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-017",
+    "title": "Surreal concept art",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for surreal concept art.",
+    "prompt": "Visualise {idea} as one surreal scene using a clear metaphor, scale contrast, controlled colour, and a strong focal hierarchy.",
+    "variables": [
+      "{idea}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-018",
+    "title": "Professional headshot",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for professional headshot.",
+    "prompt": "Create a natural professional headshot of {subject}. If a reference image is supplied, preserve recognisable appearance; use realistic light and skin texture.",
+    "variables": [
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-019",
+    "title": "Infographic illustration",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for infographic illustration.",
+    "prompt": "Design an infographic about {topic} for {audience}, organising {points} into a clear reading path with simple metaphors and accurate labels.",
+    "variables": [
+      "{audience}",
+      "{points}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "image-generation-020",
+    "title": "Automotive campaign",
+    "category": "Image Generation",
+    "platform": "Image-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for automotive campaign.",
+    "prompt": "Create a premium photograph of {vehicle} on {road}, with believable reflections, realistic tyres and shadows, and a cinematic environment.",
+    "variables": [
+      "{road}",
+      "{vehicle}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

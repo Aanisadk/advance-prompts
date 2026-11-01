@@ -1,0 +1,301 @@
+[
+  {
+    "id": "chatgpt-001",
+    "title": "Project blueprint",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for project blueprint.",
+    "prompt": "Turn {idea} into a practical project blueprint for {audience}. Define the problem, outcomes, scope, milestones, dependencies, risks, and first three actions.",
+    "variables": [
+      "{audience}",
+      "{idea}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-002",
+    "title": "Concept tutor",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for concept tutor.",
+    "prompt": "Teach me {topic} at {level}. Start with intuition, build the formal explanation, show a worked example, correct common misconceptions, and quiz me.",
+    "variables": [
+      "{level}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-003",
+    "title": "Decision analyst",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for decision analyst.",
+    "prompt": "Compare {options} for {goal}. Set transparent criteria, explain trade-offs, identify missing evidence, and recommend a reversible next step.",
+    "variables": [
+      "{goal}",
+      "{options}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-004",
+    "title": "Meeting brief",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for meeting brief.",
+    "prompt": "Prepare a brief for {meeting} using {context}. Include desired decisions, timed agenda, preparation, likely objections, and follow-up actions.",
+    "variables": [
+      "{context}",
+      "{meeting}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-005",
+    "title": "Study coach",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for study coach.",
+    "prompt": "Create a {duration}-day study plan for {subject}. I have {hours} daily and currently know {level}. Use active recall, spaced repetition, practice, and checkpoints.",
+    "variables": [
+      "{duration}",
+      "{hours}",
+      "{level}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-006",
+    "title": "Data analyst",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for data analyst.",
+    "prompt": "Analyse {data} to answer {question}. Check data quality, choose appropriate methods, distinguish correlation from causation, and state limitations.",
+    "variables": [
+      "{data}",
+      "{question}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-007",
+    "title": "Interview simulator",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for interview simulator.",
+    "prompt": "Interview me for {role} at {level}. Ask one question at a time, wait for my answer, then score it with a clear rubric and suggest improvements.",
+    "variables": [
+      "{level}",
+      "{role}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-008",
+    "title": "Email drafter",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for email drafter.",
+    "prompt": "Draft an email to {recipient} about {topic}. Desired outcome: {outcome}. Use a {tone} tone, concise wording, a subject line, and a clear next step.",
+    "variables": [
+      "{outcome}",
+      "{recipient}",
+      "{tone}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-009",
+    "title": "Concept comparison",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for concept comparison.",
+    "prompt": "Compare {a} and {b} for a beginner. Explain shared foundations, differences, practical use cases, examples, and misconceptions.",
+    "variables": [
+      "{a}",
+      "{b}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-010",
+    "title": "Idea generator",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for idea generator.",
+    "prompt": "Generate {count} distinct ideas for {goal}, respecting {constraints}. Group by approach, explain differentiators, and shortlist feasible options.",
+    "variables": [
+      "{constraints}",
+      "{count}",
+      "{goal}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-011",
+    "title": "Document reviewer",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for document reviewer.",
+    "prompt": "Review {document} for {criteria}. Prioritise issues, quote short excerpts, explain impact, and propose specific revisions.",
+    "variables": [
+      "{criteria}",
+      "{document}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-012",
+    "title": "Weekly reflection",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for weekly reflection.",
+    "prompt": "Use these notes {notes} to identify wins, unfinished work, lessons, and next-week priorities. Limit recommendations to three.",
+    "variables": [
+      "{notes}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-013",
+    "title": "Requirements writer",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for requirements writer.",
+    "prompt": "Convert {idea} into user stories, functional and non-functional requirements, assumptions, exclusions, and testable acceptance criteria.",
+    "variables": [
+      "{idea}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-014",
+    "title": "Presentation planner",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for presentation planner.",
+    "prompt": "Outline a {minutes}-minute presentation on {topic} for {audience}. Give each slide one message, visual idea, speaker note, and transition.",
+    "variables": [
+      "{audience}",
+      "{minutes}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-015",
+    "title": "Claim checker",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for claim checker.",
+    "prompt": "Audit {text} for factual claims. Classify each as supported, contradicted, uncertain, or opinion; list evidence needed without inventing citations.",
+    "variables": [
+      "{text}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-016",
+    "title": "Socratic tutor",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for socratic tutor.",
+    "prompt": "Teach {topic} through one question at a time. Adapt difficulty to my answers and reveal hints progressively instead of giving answers immediately.",
+    "variables": [
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-017",
+    "title": "Persona researcher",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for persona researcher.",
+    "prompt": "Create evidence-based personas for {product} from {research}. Separate observed facts from hypotheses, jobs-to-be-done, barriers, and validation questions.",
+    "variables": [
+      "{product}",
+      "{research}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-018",
+    "title": "Risk register",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for risk register.",
+    "prompt": "Build a risk register for {project}, including likelihood, impact, warning signs, mitigation, owner role, and contingency.",
+    "variables": [
+      "{project}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-019",
+    "title": "SOP writer",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for sop writer.",
+    "prompt": "Turn {process} into an SOP with purpose, scope, prerequisites, numbered steps, decision points, quality checks, and escalation.",
+    "variables": [
+      "{process}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "chatgpt-020",
+    "title": "Prompt refiner",
+    "category": "ChatGPT & General AI",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for prompt refiner.",
+    "prompt": "Improve this prompt {draft}. Preserve intent, resolve ambiguity, add useful constraints, specify output format, and explain key changes.",
+    "variables": [
+      "{draft}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

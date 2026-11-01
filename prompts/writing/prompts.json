@@ -1,0 +1,295 @@
+[
+  {
+    "id": "writing-001",
+    "title": "Long-form article",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for long-form article.",
+    "prompt": "Write about {topic} for {audience}. Establish a thesis, useful headings, evidence from supplied sources, and no filler or invented citations.",
+    "variables": [
+      "{audience}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-002",
+    "title": "LinkedIn post",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for linkedin post.",
+    "prompt": "Draft a LinkedIn post about {idea} for {audience}. Open specifically, share a useful insight, use readable spacing, and close naturally.",
+    "variables": [
+      "{audience}",
+      "{idea}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-003",
+    "title": "Technical docs",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for technical docs.",
+    "prompt": "Document {feature}: purpose, prerequisites, installation, minimal example, configuration, troubleshooting, and limitations.",
+    "variables": [
+      "{feature}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-004",
+    "title": "Personal statement editor",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for personal statement editor.",
+    "prompt": "Improve {statement} for {purpose}, preserving authentic voice and experience. Flag unsupported claims rather than inventing achievements.",
+    "variables": [
+      "{purpose}",
+      "{statement}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-005",
+    "title": "Story outline",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for story outline.",
+    "prompt": "Develop {premise} into a story outline with protagonist goal, stakes, conflict, turning points, character arc, and ending.",
+    "variables": [
+      "{premise}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-006",
+    "title": "Newsletter",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for newsletter.",
+    "prompt": "Create a newsletter about {theme} for {subscribers}, with subject, preview, one main insight, supplied links, and a clear close.",
+    "variables": [
+      "{subscribers}",
+      "{theme}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-007",
+    "title": "Resume bullet editor",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for resume bullet editor.",
+    "prompt": "Rewrite {bullets} for {role}, emphasising action and impact only where supported. Never fabricate metrics.",
+    "variables": [
+      "{bullets}",
+      "{role}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-008",
+    "title": "Case study",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for case study.",
+    "prompt": "Write a case study from {facts}: challenge, constraints, approach, implementation, outcomes, and lessons; label measured results.",
+    "variables": [
+      "{facts}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-009",
+    "title": "Plain English rewrite",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for plain english rewrite.",
+    "prompt": "Rewrite {text} for {reading_level}, preserving meaning and caveats while explaining jargon.",
+    "variables": [
+      "{reading_level}",
+      "{text}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-010",
+    "title": "Video script",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for video script.",
+    "prompt": "Write a {duration} script about {topic}, with hook, narration, suggested visuals, pacing, transitions, and closing.",
+    "variables": [
+      "{duration}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-011",
+    "title": "Product description",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for product description.",
+    "prompt": "Describe {product} for {audience} using verified features, practical benefits, and no unsupported claims.",
+    "variables": [
+      "{audience}",
+      "{product}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-012",
+    "title": "Academic abstract",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for academic abstract.",
+    "prompt": "Draft an abstract from {study}: background, objective, method, results, conclusion. Do not invent findings or significance.",
+    "variables": [
+      "{study}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-013",
+    "title": "Press release",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for press release.",
+    "prompt": "Prepare a release for {announcement}, with factual headline, dateline placeholder, details, quote placeholders, and media contact placeholder.",
+    "variables": [
+      "{announcement}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-014",
+    "title": "Dialogue scene",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for dialogue scene.",
+    "prompt": "Write dialogue between {characters} about {conflict}, giving each a distinct voice, subtext, natural interruption, and a shift.",
+    "variables": [
+      "{characters}",
+      "{conflict}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-015",
+    "title": "Proposal",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for proposal.",
+    "prompt": "Draft a proposal for {project} to {decision_maker}: need, objectives, scope, approach, timeline, budget placeholders, risks, and ask.",
+    "variables": [
+      "{decision_maker}",
+      "{project}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-016",
+    "title": "Developmental edit",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for developmental edit.",
+    "prompt": "Edit {draft} for clarity, flow, grammar, tone, consistency, and factual precision. Return revision and substantive edit notes.",
+    "variables": [
+      "{draft}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-017",
+    "title": "FAQ builder",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for faq builder.",
+    "prompt": "Create an FAQ for {service} from {source_material}. Prioritise real user questions and flag unknown policies for confirmation.",
+    "variables": [
+      "{service}",
+      "{source_material}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-018",
+    "title": "Podcast notes",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for podcast notes.",
+    "prompt": "Create show notes from {transcript}: summary, topics, timestamps only if supplied, verified guest details, and resources.",
+    "variables": [
+      "{transcript}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-019",
+    "title": "Grant response",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for grant response.",
+    "prompt": "Draft a grant response for {programme} using {facts}. Address criteria and flag missing data; do not overstate impact.",
+    "variables": [
+      "{facts}",
+      "{programme}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "writing-020",
+    "title": "Content repurposer",
+    "category": "Writing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for content repurposer.",
+    "prompt": "Repurpose {source} into {formats}, adapting structure and tone while preserving facts and avoiding copy-paste duplication.",
+    "variables": [
+      "{formats}",
+      "{source}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

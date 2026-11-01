@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "advance-prompts"
+version = "0.1.0"
+description = "A searchable open-source collection of reusable AI prompt frameworks"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Aanisadk"}]
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["advance_prompts"]
+include-package-data = true
+[tool.setuptools.package-data]
+advance_prompts = ["data/*.json"]

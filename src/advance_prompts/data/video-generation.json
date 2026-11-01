@@ -1,0 +1,307 @@
+[
+  {
+    "id": "video-generation-001",
+    "title": "Product reveal",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for product reveal.",
+    "prompt": "Create a {duration}-second reveal for {product}. Start with {opening}, reveal using {camera_move}, and finish on a hero frame. Maintain product continuity.",
+    "variables": [
+      "{camera_move}",
+      "{duration}",
+      "{opening}",
+      "{product}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-002",
+    "title": "Travel sequence",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for travel sequence.",
+    "prompt": "Create a short film showing {destination}: an establishing wide shot, a grounded detail, and a human-scale moment. Keep geography and time coherent.",
+    "variables": [
+      "{destination}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-003",
+    "title": "Fashion walk",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for fashion walk.",
+    "prompt": "Create a {duration}-second fashion film of {subject} walking through {location}. Track smoothly and preserve garment details and natural fabric movement.",
+    "variables": [
+      "{duration}",
+      "{location}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-004",
+    "title": "Food preparation",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for food preparation.",
+    "prompt": "Show {dish} being prepared through {steps}. Keep ingredients and utensils consistent, hands physically plausible, and finish with a plated hero shot.",
+    "variables": [
+      "{dish}",
+      "{steps}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-005",
+    "title": "Architecture walkthrough",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for architecture walkthrough.",
+    "prompt": "Create a smooth walkthrough of {space}, moving from {start} through {path} to {hero_area}. Preserve room geometry and light direction.",
+    "variables": [
+      "{hero_area}",
+      "{path}",
+      "{space}",
+      "{start}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-006",
+    "title": "Logo animation",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for logo animation.",
+    "prompt": "Create a {duration}-second logo animation for {brand} using {motion_style}. Preserve exact logo geometry and finish on a stable title frame.",
+    "variables": [
+      "{brand}",
+      "{duration}",
+      "{motion_style}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-007",
+    "title": "Nature documentary",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for nature documentary.",
+    "prompt": "Create a documentary clip of {species} in {habitat}, with natural behaviour, observational camera movement, and accurate environmental details.",
+    "variables": [
+      "{habitat}",
+      "{species}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-008",
+    "title": "Motion explainer",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for motion explainer.",
+    "prompt": "Animate {concept} in concise stages: {stages}. Use consistent iconography, readable labels, clear transitions, and a final summary frame.",
+    "variables": [
+      "{concept}",
+      "{stages}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-009",
+    "title": "Music visual loop",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for music visual loop.",
+    "prompt": "Create a looping visual for {music_mood}, using {motif}, subtle rhythm-responsive motion, and seamless loop continuity.",
+    "variables": [
+      "{motif}",
+      "{music_mood}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-010",
+    "title": "Vertical social ad",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for vertical social ad.",
+    "prompt": "Create a {duration}-second vertical ad for {offer}. Hook viewers quickly, demonstrate {benefit}, and finish with {cta}; avoid unsupported claims.",
+    "variables": [
+      "{benefit}",
+      "{cta}",
+      "{duration}",
+      "{offer}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-011",
+    "title": "Historical reconstruction",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for historical reconstruction.",
+    "prompt": "Create a respectful reconstruction of {event} using supplied references. Avoid anachronisms and sensationalism; note uncertain elements.",
+    "variables": [
+      "{event}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-012",
+    "title": "Sci-fi camera push",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for sci-fi camera push.",
+    "prompt": "Show {subject} in {environment} as the camera pushes from a wide view to a detail. Maintain spatial and lighting continuity.",
+    "variables": [
+      "{environment}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-013",
+    "title": "Stop-motion build",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for stop-motion build.",
+    "prompt": "Create a stop-motion sequence assembling {object} from {start_state} to {end_state}, with tactile materials and consistent frame-to-frame placement.",
+    "variables": [
+      "{end_state}",
+      "{object}",
+      "{start_state}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-014",
+    "title": "Drone landscape pass",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for drone landscape pass.",
+    "prompt": "Create a drone-style pass over {landscape}, specifying altitude, forward movement, reveal point, and consistent terrain and lighting.",
+    "variables": [
+      "{landscape}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-015",
+    "title": "Character emotion beat",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for character emotion beat.",
+    "prompt": "Show {character} moving from {emotion_a} to {emotion_b} through subtle expression and body language while preserving identity and wardrobe.",
+    "variables": [
+      "{character}",
+      "{emotion_a}",
+      "{emotion_b}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-016",
+    "title": "Transformation sequence",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for transformation sequence.",
+    "prompt": "Show {subject} changing from {before} to {after} through a plausible transition. Lock camera framing and preserve unchanged elements.",
+    "variables": [
+      "{after}",
+      "{before}",
+      "{subject}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-017",
+    "title": "Sports slow motion",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for sports slow motion.",
+    "prompt": "Create a slow-motion clip of {sport_action}, capturing the decisive movement with realistic body mechanics and a clear camera angle.",
+    "variables": [
+      "{sport_action}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-018",
+    "title": "Book trailer",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for book trailer.",
+    "prompt": "Create an atmospheric trailer for a book about {premise}, with three escalating visual beats and a final title reveal.",
+    "variables": [
+      "{premise}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-019",
+    "title": "Seamless environment loop",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for seamless environment loop.",
+    "prompt": "Create a seamless {duration}-second loop of {environment}; ensure final and first frames connect naturally.",
+    "variables": [
+      "{duration}",
+      "{environment}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "video-generation-020",
+    "title": "UI demo",
+    "category": "Video Generation",
+    "platform": "Video-generation models",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for ui demo.",
+    "prompt": "Create a screen-focused demo of {feature}, showing logical user steps with stable, legible interface elements and no fabricated labels.",
+    "variables": [
+      "{feature}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

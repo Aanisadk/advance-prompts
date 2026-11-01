@@ -1,0 +1,290 @@
+[
+  {
+    "id": "productivity-001",
+    "title": "Deep work block",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for deep work block.",
+    "prompt": "Design a {minutes}-minute focus session for {task}, with a start ritual, work blocks, distraction plan, and definition of done.",
+    "variables": [
+      "{minutes}",
+      "{task}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-002",
+    "title": "Priority triage",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for priority triage.",
+    "prompt": "Sort {tasks} by impact, urgency, effort, and dependency. Explain what to defer, delegate, delete, and do next.",
+    "variables": [
+      "{tasks}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-003",
+    "title": "Weekly plan",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for weekly plan.",
+    "prompt": "Build a realistic week around {commitments}, {goals}, and {hours}. Include buffers, recovery time, and at most three major priorities.",
+    "variables": [
+      "{commitments}",
+      "{goals}",
+      "{hours}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-004",
+    "title": "Habit builder",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for habit builder.",
+    "prompt": "Help me build {habit}. Define cue, friction, reward, minimum version, tracking, and a restart plan after missed days.",
+    "variables": [
+      "{habit}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-005",
+    "title": "Inbox processor",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for inbox processor.",
+    "prompt": "Classify {items} as action, waiting, reference, archive, or delete; state the next physical action for each actionable item.",
+    "variables": [
+      "{items}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-006",
+    "title": "Meeting redesign",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for meeting redesign.",
+    "prompt": "Improve {meeting} by defining purpose, essential attendees, pre-read, agenda, decision rules, and cancellation criteria.",
+    "variables": [
+      "{meeting}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-007",
+    "title": "Knowledge workflow",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for knowledge workflow.",
+    "prompt": "Design a lightweight knowledge system for {use_case}, including capture, naming, retrieval, review, and archive rules.",
+    "variables": [
+      "{use_case}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-008",
+    "title": "Deadline plan",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for deadline plan.",
+    "prompt": "Plan backwards from {deadline} for {deliverable}. Identify milestones, dependencies, review gates, buffers, and latest safe start.",
+    "variables": [
+      "{deadline}",
+      "{deliverable}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-009",
+    "title": "Decision journal",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for decision journal.",
+    "prompt": "Create a decision record for {decision}: context, options, assumptions, expected outcome, confidence, and review date.",
+    "variables": [
+      "{decision}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-010",
+    "title": "Overwhelm reducer",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for overwhelm reducer.",
+    "prompt": "Turn {task_list} into a calm plan. Group related work, identify the smallest useful action, and avoid over-scheduling.",
+    "variables": [
+      "{task_list}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-011",
+    "title": "Study sprint",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for study sprint.",
+    "prompt": "Create a {duration} study sprint for {topic}, using active recall, worked problems, breaks, and a final self-test.",
+    "variables": [
+      "{duration}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-012",
+    "title": "Delegation brief",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for delegation brief.",
+    "prompt": "Prepare a brief for delegating {task}: outcome, boundaries, resources, authority, check-ins, and escalation triggers.",
+    "variables": [
+      "{task}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-013",
+    "title": "Status update",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for status update.",
+    "prompt": "Turn {notes} into a concise status update with progress, blockers, risks, decisions needed, and next milestones.",
+    "variables": [
+      "{notes}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-014",
+    "title": "Digital declutter",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for digital declutter.",
+    "prompt": "Create a safe decluttering plan for {area}, with backup-first steps, sorting rules, deletion safeguards, and maintenance.",
+    "variables": [
+      "{area}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-015",
+    "title": "Energy-aware schedule",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for energy-aware schedule.",
+    "prompt": "Arrange {tasks} around my stated energy pattern {pattern}, with demanding work in high-energy windows and realistic transitions.",
+    "variables": [
+      "{pattern}",
+      "{tasks}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-016",
+    "title": "Accountability partner",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for accountability partner.",
+    "prompt": "Help me commit to {goal} with a measurable action and check-in. Respond constructively to progress and setbacks.",
+    "variables": [
+      "{goal}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-017",
+    "title": "Workflow simplifier",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for workflow simplifier.",
+    "prompt": "Review {workflow} for duplicate steps, unnecessary approvals, waiting, and automation opportunities while preserving controls.",
+    "variables": [
+      "{workflow}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-018",
+    "title": "Packing checklist",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for packing checklist.",
+    "prompt": "Create a packing list for {trip}, {weather}, and {activities}; separate essentials, optional items, documents, and checks.",
+    "variables": [
+      "{activities}",
+      "{trip}",
+      "{weather}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-019",
+    "title": "Monthly review",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for monthly review.",
+    "prompt": "Use {notes} to find progress, friction, patterns, and lessons; suggest a small number of experiments for next month.",
+    "variables": [
+      "{notes}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "productivity-020",
+    "title": "Personal work manual",
+    "category": "Productivity",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for personal work manual.",
+    "prompt": "Help draft an operating manual covering {work_style}, communication, focus conditions, decisions, and collaboration needs.",
+    "variables": [
+      "{work_style}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

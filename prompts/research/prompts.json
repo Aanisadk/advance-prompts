@@ -1,0 +1,290 @@
+[
+  {
+    "id": "research-001",
+    "title": "Research question",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for research question.",
+    "prompt": "Turn {topic} into focused research questions, define context and concepts, set scope, and identify evidence needed.",
+    "variables": [
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-002",
+    "title": "Literature matrix",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for literature matrix.",
+    "prompt": "Organise {papers}: question, method, sample, findings, limitations, and relevance. Do not infer absent details.",
+    "variables": [
+      "{papers}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-003",
+    "title": "Source evaluation",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for source evaluation.",
+    "prompt": "Evaluate {source} for a claim about {topic}, considering expertise, evidence, date, conflicts, method, and corroboration.",
+    "variables": [
+      "{source}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-004",
+    "title": "Learning roadmap",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for learning roadmap.",
+    "prompt": "Build a path for {subject} from {level} to {target}, sequencing prerequisites, practice, projects, and checkpoints.",
+    "variables": [
+      "{level}",
+      "{subject}",
+      "{target}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-005",
+    "title": "Experiment design",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for experiment design.",
+    "prompt": "Design a test of {hypothesis}: variables, controls, sampling, measures, confounders, ethics, and analysis plan.",
+    "variables": [
+      "{hypothesis}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-006",
+    "title": "Survey design",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for survey design.",
+    "prompt": "Create a survey about {goal} for {population}, with neutral wording, appropriate scales, consent placeholder, and bias checks.",
+    "variables": [
+      "{goal}",
+      "{population}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-007",
+    "title": "Statistics selector",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for statistics selector.",
+    "prompt": "Choose analysis for {question} using {data_structure}; ask about assumptions and measurement levels before recommending tests.",
+    "variables": [
+      "{data_structure}",
+      "{question}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-008",
+    "title": "Paper explainer",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for paper explainer.",
+    "prompt": "Explain {paper} to a {level} reader: question, method, results, limitations, and practical meaning; separate author claims from interpretation.",
+    "variables": [
+      "{level}",
+      "{paper}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-009",
+    "title": "Evidence comparison",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for evidence comparison.",
+    "prompt": "Compare evidence for {claim_a} and {claim_b}, assessing quality, methods, recency, uncertainty, and comparability.",
+    "variables": [
+      "{claim_a}",
+      "{claim_b}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-010",
+    "title": "Interview guide",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for interview guide.",
+    "prompt": "Create a semi-structured guide for {topic}, with opening, neutral core questions, probes, closing, and interviewer notes.",
+    "variables": [
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-011",
+    "title": "Data dictionary",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for data dictionary.",
+    "prompt": "Document {dataset}: field, type, definition, units, allowed values, missingness, provenance, and privacy concerns.",
+    "variables": [
+      "{dataset}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-012",
+    "title": "Search strategy",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for search strategy.",
+    "prompt": "Develop a reproducible search strategy for {question}, with concept groups, synonyms, Boolean strings, and inclusion criteria.",
+    "variables": [
+      "{question}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-013",
+    "title": "Case study plan",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for case study plan.",
+    "prompt": "Design a case study of {case}, defining boundaries, sources, triangulation, timeline, ethics, and generalisation limits.",
+    "variables": [
+      "{case}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-014",
+    "title": "Research gaps",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for research gaps.",
+    "prompt": "Identify provisional gaps in {literature} by population, method, theory, context, and measurement; label them pending broader search.",
+    "variables": [
+      "{literature}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-015",
+    "title": "Fact sheet",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for fact sheet.",
+    "prompt": "Create a fact sheet on {topic} for {audience}, using verified evidence, dates, units, definitions, and uncertainty notes.",
+    "variables": [
+      "{audience}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-016",
+    "title": "Peer review",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for peer review.",
+    "prompt": "Review {manuscript} for clarity, methods, evidence, reproducibility, and contribution. Separate major/minor issues and stay constructive.",
+    "variables": [
+      "{manuscript}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-017",
+    "title": "Ethics review",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for ethics review.",
+    "prompt": "Review {study} for consent, privacy, harm, vulnerable groups, retention, conflicts, and approvals to discuss with an ethics body.",
+    "variables": [
+      "{study}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-018",
+    "title": "Research presentation",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for research presentation.",
+    "prompt": "Outline a presentation of {findings}: question, method, key evidence, limitations, implications, and audience takeaways.",
+    "variables": [
+      "{findings}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-019",
+    "title": "Citation audit",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for citation audit.",
+    "prompt": "Audit {draft} for claims needing citations; list claim, evidence required, source type, and verification status. Never fabricate references.",
+    "variables": [
+      "{draft}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "research-020",
+    "title": "Open questions log",
+    "category": "Research & Learning",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for open questions log.",
+    "prompt": "Create a register for {project}: question, why it matters, current evidence, owner role, verification method, and decision deadline.",
+    "variables": [
+      "{project}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]

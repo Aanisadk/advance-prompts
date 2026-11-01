@@ -1,0 +1,296 @@
+[
+  {
+    "id": "marketing-001",
+    "title": "Campaign strategy",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for campaign strategy.",
+    "prompt": "Build a campaign for {offer} targeting {audience}. Define positioning, message pillars, channels, funnel, tests, assumptions, and metrics.",
+    "variables": [
+      "{audience}",
+      "{offer}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-002",
+    "title": "Content calendar",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for content calendar.",
+    "prompt": "Create a {period} calendar for {brand}, balancing education, entertainment, proof, and conversion with format, hook, CTA, and notes.",
+    "variables": [
+      "{brand}",
+      "{period}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-003",
+    "title": "SEO brief",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for seo brief.",
+    "prompt": "Create an SEO brief for {keyword}: search intent, audience, angle, outline, entities, internal links, and claims needing verification.",
+    "variables": [
+      "{keyword}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-004",
+    "title": "Landing page",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for landing page.",
+    "prompt": "Write landing page copy for {product}: hero, problem, benefits, proof placeholders, objections, FAQ, and CTA; invent no testimonials.",
+    "variables": [
+      "{product}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-005",
+    "title": "Social hooks",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for social hooks.",
+    "prompt": "Generate {count} distinct hooks for {topic} on {platform}. Avoid clickbait and align each hook with the actual content.",
+    "variables": [
+      "{count}",
+      "{platform}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-006",
+    "title": "Brand voice guide",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for brand voice guide.",
+    "prompt": "Infer a voice guide from {examples}: traits, vocabulary, sentence style, do/don’t examples, and channel adaptations.",
+    "variables": [
+      "{examples}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-007",
+    "title": "Competitor map",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for competitor map.",
+    "prompt": "Compare {brand} with {competitors} using supplied evidence. Map positioning, audiences, messages, strengths, and hypotheses.",
+    "variables": [
+      "{brand}",
+      "{competitors}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-008",
+    "title": "Email nurture",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for email nurture.",
+    "prompt": "Draft a {number}-email sequence for {audience} toward {goal}, with distinct purpose, subject, useful content, and respectful CTA.",
+    "variables": [
+      "{audience}",
+      "{goal}",
+      "{number}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-009",
+    "title": "Ad concepts",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for ad concepts.",
+    "prompt": "Create ad concepts for {offer} on {platforms}. Vary angles and formats, respect known limits, and avoid unsupported claims.",
+    "variables": [
+      "{offer}",
+      "{platforms}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-010",
+    "title": "Audience interview",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for audience interview.",
+    "prompt": "Design neutral interview questions about {problem} for {audience}, with useful follow-up probes and no leading wording.",
+    "variables": [
+      "{audience}",
+      "{problem}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-011",
+    "title": "Launch plan",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for launch plan.",
+    "prompt": "Create a launch checklist for {product} on {date}: validation, assets, channels, support readiness, monitoring, and learning.",
+    "variables": [
+      "{date}",
+      "{product}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-012",
+    "title": "Community growth",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for community growth.",
+    "prompt": "Design an ethical growth plan for {community}, focused on member value, onboarding, participation, moderation, and retention.",
+    "variables": [
+      "{community}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-013",
+    "title": "Creator brief",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for creator brief.",
+    "prompt": "Write a creator brief for {campaign}: audience fit, key message, deliverables, disclosure, creative freedom, deadlines, and review.",
+    "variables": [
+      "{campaign}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-014",
+    "title": "Campaign analytics",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for campaign analytics.",
+    "prompt": "Interpret {metrics}. Calculate only supported measures, identify possible explanations, and recommend experiments rather than assuming causation.",
+    "variables": [
+      "{metrics}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-015",
+    "title": "Brand story",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for brand story.",
+    "prompt": "Write a brand story for {brand} from {facts}, explaining purpose without fabricated origin stories or grandiose claims.",
+    "variables": [
+      "{brand}",
+      "{facts}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-016",
+    "title": "Objection map",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for objection map.",
+    "prompt": "Map objections to {offer}; for each give underlying concern, evidence needed, honest response, and improvement opportunity.",
+    "variables": [
+      "{offer}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-017",
+    "title": "Local promotion",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for local promotion.",
+    "prompt": "Create a low-cost local marketing plan for {business} in {area}, with partnerships, local search basics, seasonal ideas, and metrics.",
+    "variables": [
+      "{area}",
+      "{business}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-018",
+    "title": "B2B outreach",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Advanced",
+    "description": "A reusable prompt framework for b2b outreach.",
+    "prompt": "Draft a relevant outreach note to {role} at {company_type}, using verified context, a specific value hypothesis, and low-friction ask.",
+    "variables": [
+      "{company_type}",
+      "{role}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-019",
+    "title": "Carousel outline",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Beginner",
+    "description": "A reusable prompt framework for carousel outline.",
+    "prompt": "Plan a {slides}-slide carousel on {topic}; give each slide one idea, concise copy, visual direction, and narrative progression.",
+    "variables": [
+      "{slides}",
+      "{topic}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  },
+  {
+    "id": "marketing-020",
+    "title": "Experiment backlog",
+    "category": "Marketing",
+    "platform": "General AI assistants",
+    "difficulty": "Intermediate",
+    "description": "A reusable prompt framework for experiment backlog.",
+    "prompt": "Prioritise experiments for {growth_goal}; include hypothesis, audience, change, primary metric, guardrail, effort, and decision rule.",
+    "variables": [
+      "{growth_goal}"
+    ],
+    "usage": "Replace each {variable} with your own context. Provide relevant source material, review the output, and verify consequential claims.",
+    "last_reviewed": "2026-11-02"
+  }
+]
